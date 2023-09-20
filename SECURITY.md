@@ -1,21 +1,19 @@
-# Security Policy
+# GNU General Public License (GPL)
 
-## Supported Versions
+This is the text of the GNU General Public License (GPL) version X. For full details, please see the [official GNU GPL page](https://www.gnu.org/licenses/gpl-X.0.html).
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+## Permissions
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+- Commercial use
+- Modification
+- Distribution
+- Patent use
 
-## Reporting a Vulnerability
+## Limitations
 
-Use this section to tell people how to report a vulnerability.
+- No warranty
+- Liability
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+## Conditions
+
+- Redistributions must be licensed under the same terms as this license.
