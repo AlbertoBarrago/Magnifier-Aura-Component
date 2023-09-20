@@ -1,0 +1,52 @@
+.THIS * {box-sizing: border-box;}
+
+.THIS {
+    position: relative;
+    width:auto;
+    height: auto;
+  }
+
+.THIS .img-magnifier-container {
+  position: relative;
+}
+
+.THIS .img-magnifier-glass {
+  position: absolute;
+  border: 3px solid #bbb7b7;
+  border-radius: 50%;
+  cursor: none;
+  /*Set the size of the magnifier glass:*/
+  width: 100px;
+  height: 100px;
+}
+
+.THIS .img-magnifier-glass-150 {
+  position: absolute;
+  border: 3px solid #bbb7b7;
+  border-radius: 50%;
+  cursor: none;
+  /*Set the size of the magnifier glass:*/
+  width: 150px;
+  height: 150px;
+}
+
+.THIS .img-magnifier-glass-200 {
+  position: absolute;
+  border: 3px solid #bbb7b7;
+  border-radius: 50%;
+  cursor: none;
+  /*Set the size of the magnifier glass:*/
+  width: 200px;
+  height: 200px;
+}
+
+.THIS .hidden {
+    display: none;
+}
+
+.THIS .product-description {
+  position: relative;
+  margin-top: 10px;
+  text-align: left;
+  font-size: 0.9em;
+}

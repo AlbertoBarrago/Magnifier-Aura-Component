@@ -1,0 +1,8 @@
+<design:component label="B2B Commerce Lens component">
+    <design:attribute name="urlImage" label="Indirizzo Immagine" default="https://fakeimg.pl/600x400"/>
+    <design:attribute name="zoom" label="Livello Zoom" default="2"/>
+    <design:attribute name="glassColor" label="Magnifier Style" description="Select a magnifier style" default="img-magnifier-glass" datasource="img-magnifier-glass,img-magnifier-glass-150,img-magnifier-glass-200"/>
+    <design:attribute name="hideDescription" label="Nascondi descrizione" default="False"/>
+    <design:attribute name="productTitle" label="Nome prodotto" default="Titolo prodotto" />
+    <design:attribute name="productDescription" label="Descrizione" default="Descrizione prodotto" />
+</design:component>

@@ -1,0 +1,23 @@
+<aura:component implements="forceCommunity:availableForAllPageTypes" access="global">
+    <aura:handler event="aura:doneRendering" action="{!c.init}" />
+    <aura:handler event="aura:doneRendering" action="{!c.hiddenGlass}" />
+
+    <aura:attribute name="urlImage" type="String" default="https://fakeimg.pl/1450x500"/>
+    <aura:attribute name="zoom" type="Integer" default="2"/>
+
+    <aura:attribute name="productTitle" type="String" default="Titolo prodotto"/>
+    <aura:attribute name="productDescription" type="String" default="Descrizione prodotto"/>
+    <aura:attribute name="hideDescription" type="Boolean" default="false"/> 
+
+    <aura:attribute name="glassColor" type="String" default="img-magnifier-glass"/>
+
+    <div aura:id="imageContainer" class="image-container" onmouseleave="{!c.hiddenGlass}" onmouseenter="{!c.showGlass}">
+        <img aura:id="img" src="{!v.urlImage}" alt="Image" />
+    </div>
+    <aura:if isTrue="{!not(v.hideDescription)}">
+        <div class="product-description">
+            <h1>{!v.productTitle}</h1>
+            <p>{!v.productDescription}</p>
+        </div>
+    </aura:if>
+</aura:component>
