@@ -1,5 +1,7 @@
 ## ImageMagnifier
 
+![Pepe'sLens](https://www.kindpng.com/picc/m/324-3242596_pepe-meme-rarepepe-sherlock-sherlockholmes-detective-pepe-hd.png)
+
 ### Component Name: _Magnifier Component_
 
 #### Description:
